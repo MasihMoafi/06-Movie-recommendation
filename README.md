@@ -1,18 +1,18 @@
-## Movie-recommendation
+# Movie-recommendation
 
 This repository contains code for a movie recommendation system based on clustering and content-based filtering algorithms. The system uses a dataset of movie ratings and tags to cluster movies based on their genres and tags and recommends movies from the same cluster as the user's watched movie.
 
-# Dataset
+## Dataset
 
 The dataset used for this recommendation system is the MovieLens Small dataset, which includes movie ratings, tags, and movie metadata. The dataset can be obtained from the MovieLens website.
 
-# Setup
+## Setup
 
 Clustering Approach
 
 The recommendation system uses K-means clustering to cluster movies based on their genres and tags. It applies TF-IDF vectorization to the genres and tags data and then performs K-means clustering with a specified number of clusters for each. The silhouette scores are calculated to evaluate the clustering quality.
 
-# Results and Recommendations
+## Results and Recommendations
 
 The code provides several outputs to understand the dataset and the clustering results:
 
